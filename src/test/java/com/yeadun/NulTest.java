@@ -1,0 +1,1 @@
+package com.yeadun;public class NulTest {    public static void main(String[] args){        Person p = new Person();        p.setAttr(null);    }}class Person{    private Object attr;    public void setAttr(Object attr){        this.attr = attr;    }    public Object getAttr(){        return this.attr;    }}
