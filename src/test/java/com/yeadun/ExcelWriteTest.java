@@ -1,9 +1,9 @@
 package com.yeadun;
 
-import com.lion.testutil.util.excel.ExcelWorker;
-import com.lion.testutil.util.net.HttpClientFactory;
+import com.yeadun.testutil.excel.ExcelWorker;
+import com.yeadun.testutil.net.HttpClientFactory;
 
-public class ExcelTest {
+public class ExcelWriteTest {
 
     public static void main(String[] args){
         ExcelWorker worker = new ExcelWorker("/Users/very/文档/招财猫测试数据.xlsx");

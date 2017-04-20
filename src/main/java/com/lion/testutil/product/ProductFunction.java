@@ -1,1 +1,0 @@
-package com.lion.testutil.product;import com.lion.testutil.BasicFunction;import java.util.HashMap;/** * 所有产品类需要实现ApiBasicFunction抽象类 * */public abstract class ProductFunction extends BasicFunction<HashMap<String, String>, Response> {}
