@@ -1,0 +1,1 @@
+package com.yeadun.testutil.product.model;import java.util.HashMap;public interface Product {    public HashMap<String, String> pojo2Map();}

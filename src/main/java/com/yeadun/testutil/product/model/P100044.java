@@ -1,1 +1,1 @@
-package com.yeadun.testutil.product.model;public class P100044 {}
+package com.yeadun.testutil.product.model;import java.util.HashMap;public class P100044 implements Product{    @Override    public HashMap<String, String> pojo2Map() {        HashMap<String, String> result = new HashMap<>();        return result;    }}
